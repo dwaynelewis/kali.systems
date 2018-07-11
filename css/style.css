@@ -117,7 +117,7 @@ body
 .smartphone-option-background, 
 .smartphone-option-background-selected
 {
-	background-color:#d00355;
+	background-color:black;
 }
 .thumb-selected img
 {
@@ -150,7 +150,7 @@ body
 .menu-background, .sub-menu-holder
 {
 	background-color: #ffffff;
-    background-image:url(../assets/patterns/menu/menu_pattern_1.png);/*url(../assets/patterns/pattern_menu.png);*/
+    /* background-image:url(../assets/patterns/menu/menu_pattern_1.png);url(../assets/patterns/pattern_menu.png); */
 	background-repeat:repeat;
 }
 
@@ -251,7 +251,7 @@ submenu holder has overflow hidden */
 	clear:both;
 	position:relative;
 	float:left;
-	background-image:url(../assets/media/synergy_html5_logo.png);
+	/* background-image:url(../assets/media/synergy_html5_logo.png); */
 	background-repeat:no-repeat;
 	width: 140px;
 	height: 90px;
@@ -468,7 +468,7 @@ submenu holder has overflow hidden */
     height: 30px;
     width: 30px; 
 }
-.audio-options-button-backg{ background-color: #d00355; }
+.audio-options-button-backg{ background-color: red; }
 .audio-controls-backg{ background-color: #171717; }
 
 .audio-options-button-sign, .audio-prev-track-sign, .audio-play-track-sign, .audio-pause-track-sign, 
@@ -3934,7 +3934,7 @@ h1, h2, h3, h4, h5, h6
 	#template-menu{ display: none; }
     #audio-player{display:none;}
 	.menu-content-holder{ width: 100%; }
-	.template-logo{ margin: 5px 0 5px -47px; background-image: url("../assets/media/synergy_html5_logo_smartphone.png"); width:94px; height:60px;}
+	.template-logo{ margin: 5px 0 5px -47px; background-color: white; width:94px; height:60px;}
 	#template-smpartphone-menu{ display: inline; }
 	
 	#menu-hider{ width: 100%; height: 10px; }

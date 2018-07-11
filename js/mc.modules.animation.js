@@ -6,7 +6,7 @@
  **/
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "kali.systems";/*"http://themes.mediacreed.com/html/synergy/"*/
+var templateBaseURL         = "http://localhost:3000/";/*"http://kali.systems/"*/
 var themeColor              = "#d00355";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive' 
