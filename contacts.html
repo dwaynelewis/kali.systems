@@ -16,7 +16,45 @@
     <link type="text/css" rel="stylesheet" href="css/color.css">
     <!--=============== favicons ===============-->
     <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '422542431545713');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=422542431545713&ev=PageView&noscript=1"
+  /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
+
+<script>
+    fbq('track', 'ViewContent', {
+        value: contact,
+    });
+</script>
+
+
+
 
 <body>
     <!--loader-->
@@ -120,7 +158,7 @@
 
                         <li><a href="pricing.html">Services </a></li>
                         <li><a href="templates.html">Templates</a></li>
-                        <li><a href="ourteam.html">Our Team</a></li>
+                        <!-- <li><a href="ourteam.html">Our Team</a></li> -->
 
 
 
@@ -152,7 +190,7 @@
                     <div class="container">
                         <div class="section-title">
                             <h2>Get<span>In</span>Touch</h2>
-                            <p style="color:white;">We are here to help! </p>
+                            <p style="color:white;">You're alive, take advantage of it </p>
                             <div class="horizonral-subtitle"><span>KALI.</span></div>
                         </div>
                     </div>
@@ -200,7 +238,7 @@
                                                     <i class="fal fa-envelope-open"></i>
                                                 </div>
                                                 <h3>03. Email</h3>
-                                                <a href="#">hello@kali.digital</a>
+                                                <a href="#">hello@kali.technology</a>
                                             </div>
                                             <!-- features-box end  -->
                                         </div>
@@ -226,7 +264,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <div id="contact-form">
-                                        <div id="message">Message sent</div>
+                                        <div id="message">Message sent!</div>
                                         <form class="custom-form" action="/api/contact" name="contactform" id="contactform" method="POST" enctype="application/x-www-form-urlencoded">
                                             <fieldset>
                                                 <div class="row">
@@ -339,8 +377,8 @@
                                     </div>
                                     <div class="footer-contacts fl-wrap">
                                         <ul>
-                                            <li><i class="fal fa-phone"></i><span>Phone :</span><a href="#">9544060430</a></li>
-                                            <li><i class="fal fa-envelope"></i><span>Email :</span><a href="#">hello@kali.digital</a></li>
+                                            <li><i class="fal fa-phone"></i><span>Phone :</span><a href="#">+12132778118</a></li>
+                                            <li><i class="fal fa-envelope"></i><span>Email :</span><a href="#">hello@kali.technology</a></li>
                                             <li><i class="fal fa-map-marker"></i><span>Address</span><a href="#">Fort Lauderdale, FL</a></li>
                                         </ul>
                                     </div>
@@ -364,7 +402,7 @@
                     <div class="container">
                         <!-- policy-box-->
                         <div class="policy-box">
-                            <span>&#169; Kali Digital 2018  /  All rights reserved. </span>
+                            <span>&#169; Kali Technology 2018  /  All rights reserved. </span>
                         </div>
                         <!-- policy-box end-->
                         <a href="#" class="to-top color-bg"><i class="fal fa-angle-up"></i><span></span></a>
