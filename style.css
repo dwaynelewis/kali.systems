@@ -663,7 +663,7 @@ nav {
 .banner-area .owl-nav .owl-next i,
 .banner-area .owl-nav .owl-prev i,
 .single-banner::after {
-    /* background-color: rgba(0, 0, 0, 0.65) !important; */
+    background-color: rgba(0, 0, 0, 0.65) !important;
 }
 
 .single-banner {
@@ -854,17 +854,17 @@ nav {
 }
 
 .donate-wraper-bg-one {
-    background: url('img/about/hf1.PNG') no-repeat scroll center top / cover;
+    background: url('img/about/st.JPG') no-repeat scroll center top / cover;
     position: relative
 }
 
 .donate-wraper-bg-two {
-    background: url('img/about/fs.JPG') no-repeat scroll center top / cover;
+    background: url('img/about/food.JPG') no-repeat scroll center top / cover;
     position: relative
 }
 
 .donate-wraper-bg-three {
-    background: url('img/about/st.JPG') no-repeat scroll center top / cover;
+    background: url('img/about/st2.JPG') no-repeat scroll center top / cover;
     position: relative
 }
 
