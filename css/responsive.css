@@ -1,309 +1,835 @@
-
-
-/* ==============================================
-==================Large Display==============*/
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .v2 .container {
-        width: 910px;
+@media (max-width: 1200px) {
+    .theme-layout.boxed{
+        width:95%;
     }
-    /*--------- Uttilities --------*/
-    .p__md__120 {
-        padding-top: 120px;
-        padding-bottom: 120px;
+    .menu nav {
+        float: right;
+        display: none;
     }
-    .pt__md__90 {
-        padding-bottom: 90px
+    .popup-client > span {
+        margin: 22px 0;
     }
-    .pt__md__90 {
-        padding-bottom: 70px
+    .menu {
+        min-height: auto;
     }
-    /*--------- Portfolio Caption --------*/
-    .fig__caption {
-        -webkit-transform: translate(50%, -50%);
-        transform: translate(50%, -50%);
+    .logo {
+        padding: 23px 0 22px;
     }
-}
-
-
-/* ==============================================
-==================Medium Display==============*/
-
-@media only screen and (max-width: 991px) {
-    .v2 .container {
-        width: 728px;
+    .popup-client {
+        margin-left: 25px;
     }
-    /*--------- Uttilities --------*/
-    .pt__sm__50 {
-        padding-top: 50px;
+    .simple-header.for-sticky {
+        float: left;
+        position: relative !important;
+        width: 100%;
+        z-index: 99;
     }
-    .pt__sm__70 {
-        padding-top: 70px;
+    .menu nav {
+        background: #ffffff none repeat scroll 0 0;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 260px;
+        z-index: 9999;
     }
-    .pt__sm__80 {
-        padding-top: 80px;
-    }
-    .pb__sm__40 {
-        padding-bottom: 40px;
-    }
-    .pb__sm__50 {
-        padding-bottom: 50px;
-    }
-    .pb__sm__60 {
-        padding-bottom: 60px;
-    }
-    .pb__sm__80 {
-        padding-bottom: 80px;
-    }
-    .v2_title.pb__70.text__center {
-        padding-bottom: 50px;
-    }
-    .flex__sm__col {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-        flex-flow: column;
-    }
-    /*--------- Header --------*/
-    .sticky-header button.btn-show {
-        padding-top: 15px;
-    }
-    .v2 .top__header .container,
-    .v2 header .container {
-        width: 95%;
-    }
-    header.sticky-header .nav-logo > img {
-        margin: 15px auto 0px 20px;
-    }
-    header.sticky-header .nav-menu > .active > a::after {
-        height: 1px;
-        background: #F9BF3B none repeat scroll 0 0;
-    }
-    /*--------- About --------*/
-    .v2_about .container__mid {
-        display: inherit;
-    }
-    /*--------- Service --------*/
-    .v2_service_block {
-        margin-bottom: 30px;
-    }
-    .v2_service_block img {
+    .menu nav > ul {
+        float: left;
         width: 100%;
     }
-    /*--------- Fun Facts --------*/
-    .v2 .counter__wrapper h3 {
-        font-size: 28px;
-        font-weight: 700;
-    }
-    .v2 .counter__wrapper span {
-        font-size: 15px;
-    }
-    .v2 .counter__wrapper i {
-        font-size: 22px;
-    }
-    /*--------- Portfolio Caption --------*/
-    .gallery-img img {
+    .menu nav > ul > li {
+        background: #fafafa none repeat scroll 0 0;
+        border-bottom: 1px solid #e8ecec;
+        float: left;
+        padding: 0;
         width: 100%;
     }
-
-    .gallery-img iframe {
+    .menu nav > ul > li > a {
+        float: left;
+        padding: 17px 30px;
         width: 100%;
     }
-    
-    .fig__caption {
-        -webkit-transform: translate(0%, -20%);
-        transform: translate(0%, -20%);
-        text-align: center;
-    }
-    .fig__caption h3 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    /*--------- team  --------*/
-    .v2__team__img img {
+    .menu-item-has-children > ul {
+        float: left;
+        opacity: 1;
+        padding: 0;
+        position: static;
+        visibility: visible;
         width: 100%;
-    }
-    /*--------- image block --------*/
-    .side__img {
-        left: -80%;
-        width: 100%;
-    }
-    .side__img {
-        margin-top: -42px;
-    }
-    /*--------- pricing  --------*/
-    .pricing {
-        margin-bottom: 30px;
-    }
-    /*--------- blog --------*/
-    .blog__post {
-        margin-bottom: 30px;
-    }
-    .blog__post img {
-        width: 100%;
-    }
-    /*--------- contact info --------*/
-    .social__link {
-        padding-top: 45px;
-    }
-    /*--------- footer --------*/
-    footer .container__mid {
-        display: inherit;
-    }
-}
-
-
-/* ==============================================
-==================Tab Screen==============*/
-
-@media only screen and (max-width: 767px) {
-    .v2 .container {
-        width: 450px;
-    }
-    .flex__sm__none {
-        display: inherit;
-    }
-    .v2_title h5 {
-        font-size: 16px;
-        line-height: 28px;
-    }
-    /*--------- header --------*/
-    .off_can_lg {
-        margin-top: -30px;
-    }
-    .sticky-header .off_can_lg {
         margin: 0;
     }
-    .top__header {
-        text-align: center;
-        height: 95px;
+    .menu-item-has-children > ul > li {
+        margin: 0;
     }
-    .top__header .float__right {
-        float: none;
+    .simple-header.for-sticky.sticky > .menu nav > ul > li {
+        padding: 0;
     }
-    .fs__14 {
-        font-size: 14px!important;
-    }
-    .fs__13 {
-        font-size: 20px!important;
-    }
-    /*--------- Fun Facts --------*/
-    .counter__wrapper {
-        display: inline-block;
-        padding-bottom: 30px;
-        padding-right: 37px;
-    }
-    .fun__facts .pbt__70 {
-        padding-bottom: 40px;
-    }
-    /*--------- Feature --------*/
-    img.v2__mockup {
-        display: none;
-    }
-    /*--------- Portfolio --------*/
-    .button-group button {
-        padding: 0 8px 10px;
-        margin-bottom: 20px;
-    }
-    .v2__portfolio .grid li {
+    .menu-item-has-children.mega > ul > li {
         width: 100%;
     }
-    .fig__caption {
-        bottom: 25%;
-        left: 25%;
-    }
-    /*--------- team --------*/
-    .v2__team__mamber {
-        margin-bottom: 30px;
-    }
-    /*--------- image block --------*/
-    .v2__features {
-        padding: 80px 0 60px;
-    }
-    .side__img {
-        margin-top: 80px;
-        position: initial;
-    }
-    /*--------- client --------*/
-    .client__carousel .carousel-cell {
-        width: 30%;
-    }
-    /*--------- footer --------*/
-    .widget__one {
-        padding-bottom: 30px;
-    }
-}
-
-
-/* ==============================================
-=============Medium Mobile Screen==============*/
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .v2 .container {
-        width: 450px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .top__header.bg__dark {
+    .menu-item-has-children > ul {
+        margin: 0;
+        opacity: 1;
+        visibility: visible;
         display: none;
     }
-    header {
-        top: 10px;
+
+    .menu-item-has-children.mega > ul {
+        width: 100%;
     }
-    .off_can_lg {
-        margin-top: 0;
+    .menu-toggle{
+        display: block;
+    }
+    .services-sec .all-services {
+        padding-top: 80px;
+    }
+    .steps-sec .row > div {
+        width: 50%;
+    }
+    .related > .row > div {
+        float: left;
+        width: 100%;
+    }
+    .square-services-sec > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .lsting-agents-info > p {
+        padding: 0 33px;
+    }
+    .mini-service-info > ul > li {
+        font-size: 14px;
+        line-height: 40px;
+        padding-right: 20px;
+    }
+    .mini-service-info li > i {
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 14px;
+        width: 40px;
+    }
+    .mini-portfolio .portfolio-info > h3 {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .ceo-message {
+        padding: 50px 40px;
+    }
+    .social_widget > a {
+        font-size: 17px;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 5px;
+        width: 50px;
+    }
+    .contact-lists-sec > ul > li {
+        float: left;
+        font-size: 15px;
+        line-height: 40px;
+        padding-right: 20px;
+    }
+    .contact-lists-sec > ul > li > i {
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 14px;
+        width: 40px;
+    }
+    .error-not-found h3 {
+        font-size: 113px;
+    }
+    .error-not-found h3 strong {
+        font-size: 30px;
+    }
+    .error-not-found > h5 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .col-md-8 .event-sec > .row > div {
+        width: 100%;
+    }
+    .theme-layout {
+        padding: 0 !important;
     }
 }
 
-/* ==============================================
-============Small Mobile Display==============*/
+@media (min-width: 768px) and (max-width: 980px) {
+    .properties-sec .row > div {
+        float: left;
+        width: 50%;
+    }    
+    .theme-layout {
+        padding: 0 !important;
+    }    
+    .service-circle-sec > .row > div {
+        float: left;
+        margin-bottom: 30px;
+        width: 50%;
+    }    
+    .theme-layout.boxed{
+        width:95%;
+    }
+    .services-sec .all-services > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .steps-sec .row > div {
+        float: left;
+        width: 50%;
+    }
+    .step-info {
+        padding: 0 50px;
+    }
+    .step-info > span {
+        font-size: 80px;
+        line-height: 63px;
+        margin-bottom: 16px;
+        padding-bottom: 27px;
+    }
+    .column {
+        float: left;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    .column:last-child {
+        margin-bottom: 0px;
+    }
+    .block .container {
+        padding: 0 15px;
+    }
 
-@media only screen and (min-width: 300px) and (max-width: 479px) {
-    .v2 .container {
-        width: 300px;
+    .container {
+        padding: 0 15px;
     }
-    .fs__14 {
-        font-size: 24px!important;
+    .account-popup {
+        width: 90%;
     }
-    /*--------- Slider Facts --------*/
-    .slider-content h2 {
-        font-size: 38px;
+    .popup-client > span {
+        width: 71px;
+        height: 47px;
+        color: transparent;
     }
-    .slider-content h3 {
-        color: #ddd;
+    .popup-client > span i {
+        color: white;
+    }
+    header.for-sticky .popup-client > span:hover {
+        color: transparent !important;
+    }
+    .contact-item > li {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .simple-header.for-sticky .popup-client > span:hover i {
+        color: #333333;
+    }
+    .choose-language {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 7px;
+    }
+    .choose-language > a {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }
+    .contact-item {
+        width: 100%;
+    }
+    .menu nav > ul > li > a {
+        color: #333333;
+    }
+    header.simple-header.white.for-sticky .popup-client > span:hover i {
+        color: #ffffff;
+    }
+    header .menu-item-has-children > ul > li {
+        background: #f4f4f4 none repeat scroll 0 0;
+        border-color: #dfdfdf;
+    }
+    header .menu-item-has-children > ul > li > a {
+        color: #434343;
+    }
+    .square-services-sec > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .fancy-testimonial-sec {
+        margin: 0;
+        width: 100%;
+    }
+    .lsting-agents-info > p {
+        padding: 0 33px;
+    }
+    .lsting-agents-info {
+        bottom: -100px;
+    }
+
+    .feature-list {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-list > i {
+        display: inline-block;
+        float: none;
+    }
+    .features-list-sec.flip .feature-list > i {
+        float: none;
+    }
+    .texty-service-sec > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .who-we-are-sec .service-simple-sec .service-simple {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .fun-fact-sec > .row > div {
+        float: left;
+        margin-bottom: 30px;
+        width: 33.333%;
+    }
+    .ceo-message-sec .row > div {
+        float: left;
+        width: 100%;
+    }
+    .ceo-message {
+        margin: 0;
+        width: 100%;
+    }
+    .contact-form > form .row > div {
+        float: left;
+        width: 100%;
+    }
+    .contact-lists-sec > ul > li {
+        width: 100%;
+    }
+    .faq-form button {
+        float: right;
+        margin-top: 20px;
+    }
+    .single-post-sec .blog-post .post-detail {
+        float: left;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        position: relative;
+        width: 100%;
+    }
+    blockquote {
+        padding: 50px 70px;
+    }
+		
+	.virtecal-search .form-group {
+		width: 100%;
+	}
+	.virtecal-search {
+		bottom: 20px;
+		width: 100%;
+		position: initial;
+		left: auto;
+		padding: 0px;
+		right: 46px;
+	}
+	 .virtecal-search .fsearch-title {
+    display: none;
+	}
+}
+
+@media (max-width: 767px) {
+    .properties-sec .row > div {
+        float: left;
+        width: 50%;
+    }  
+    .single-post-sec .blog-post .post-detail {
+        float: left;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        position: relative;
+        width: 100%;
+    } 
+    .faq-form button {
+        float: right;
+        margin-top: 20px;
+    }    
+    .contact-lists-sec > ul > li {
+        width: 100%;
+    }    
+    .comming-soon > h2 {
+        font-size: 64px;
+        line-height: 70px;
+    }
+    .comming-soon .logo > a > span {
+        font-size: 39px;
+    }
+    .countdown > li {
+        font-size: 46px;
+        margin: 0 -5px;
+    }
+    .contact-form > form .row > div {
+        float: left;
+        width: 100%;
+    } 
+    .ceo-message {
+        margin: 0;
+        width: 100%;
+    }    
+    .service-circle-sec > .row > div {
+        float: left;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .ceo-message-sec .row > div {
+        float: left;
+        width: 100%;
+    }    
+    .who-we-are-sec .service-simple-sec > .row > div {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .fun-fact-sec > .row > div {
+        float: left;
+        margin-bottom: 20px;
+        width: 33.333%;
+    }  
+    .texty-service-sec > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .square-services-sec > .row > div {
+        float: left;
+        width: 100%;
+    }    
+    .theme-layout.boxed {
+        width: 100%;
+    }
+    .services-sec .all-services > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .steps-sec .row > div {
+        float: left;
+        width: 50%;
+    }
+    .step-info {
+        padding: 0 50px;
+    }
+    .step-info > span {
+        font-size: 80px;
+        line-height: 63px;
+        margin-bottom: 16px;
+        padding-bottom: 27px;
+    }   
+    .column {
+        float: left;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    .column:last-child {
+        margin-bottom: 0px;
+    }
+    .block .container {
+        padding: 0 15px;
+    }
+    .services-sec .all-services > .row > div {
+        float: left;
+        width: 50%;
+    }
+    .steps-sec .row > div {
+        float: left;
+        width: 100%;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .popup-client > span {
+        width: 71px;
+        height: 47px;
+        color: transparent;
+    }
+    .popup-client > span i {
+        color: white;
+    }
+    header.for-sticky .popup-client > span:hover {
+        color: transparent !important;
+    }
+    .account-popup {
+        width: 98%;
+    }
+    .contact-item > li {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .choose-language {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 7px;
+    }
+    .choose-language > a {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }
+    .contact-item {
+        width: 100%;
+    }
+    .simple-header.for-sticky .popup-client > span:hover i {
+        color: #333333;
+    }
+    .menu nav > ul > li > a {
+        color: #333333;
+    }
+    header.simple-header.white.for-sticky .popup-client > span:hover i {
+        color: #ffffff;
+    }
+    header .menu-item-has-children > ul > li {
+        background: #f4f4f4 none repeat scroll 0 0;
+        border-color: #dfdfdf;
+    }
+    header .menu-item-has-children > ul > li > a {
+        color: #434343;
+    }
+    .fancy-testimonial-sec {
+        margin: 0;
+        width: 100%;
+    }
+    .lsting-agents-info > p {
+        padding: 0 33px;
+    }
+    .feature-list {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-list > i {
+        display: inline-block;
+        float: none;
+    }
+    .features-list-sec.flip .feature-list > i {
+        float: none;
+    }
+    .post-detail {
+        float: left;
+        padding: 60px 40px;
+        position: static;
+        width: 100%;
+    }
+    .blog-post {
+        position: relative;
+    }
+    .post-admin {
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    .post-admin a h5 {
+        display: none;
+    }
+    .post-admin a span {
+        display: none;
+    }
+    .error-not-found > span {
+        text-align: center;
+    }
+    .error-not-found h3 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .error-not-found > h5 {
+        text-align: center;
+    }
+    .error-not-found > ul {
+        text-align: center;
+    }
+    .error-not-found > ul > li {
+        display: inline-block;
+        float: none;
+        margin: 5px 20px;
+    }
+    .single-post-sec .blog-post .post-detail .post-admin {
+        float: left;
+        position: static;
+        width: 100%;
+    }
+    .single-post-sec .blog-post .post-detail .post-admin h5 {
+        display: block;
+    }
+    .single-post-sec .blog-post .post-detail .post-admin span {
+        display: block;
+    }
+    .single-post-sec h1 {
+        font-size: 23px;
+    }
+    blockquote {
+        padding: 40px;
+    }
+	
+	.virtecal-search .form-group {
+		width: 100%;
+	}
+	.virtecal-search {
+		bottom: 20px;
+		width: 100%;
+		position: initial;
+		left: auto;
+		padding: 0px;
+		right: 46px;
+	}
+	
+}
+
+@media (max-width: 480px)  {
+    .properties-sec .row > div {
+        float: left;
+        width: 100%;
+    }    
+    .who-we-are-sec > h3 {
         font-size: 18px;
-        line-height: 30px;
-        padding-bottom: 30px;
     }
-    .slider__btn {
-        transform: scale(.85);
+    .who-we-are-sec .service-simple-sec > .row > div {
+        margin-bottom: 30px;
+        width: 100%;
+        float: left;
     }
-    /*--------- counter --------*/
-    .counter__wrapper {
-        padding-right: 16px;
+    .fancy-testimonial-sec {
+        padding: 50px 20px;
+    }    
+    .theme-layout.boxed {
+        width: 100%;
     }
-    /*--------- portfolio --------*/
-    .fig__caption {
-        bottom: 15%;
-        left: 12%;
+    .services-sec .all-services > .row > div {
+        float: left;
+        width: 100%;
     }
-    /*--------- client --------*/
-    .client__carousel .carousel-cell {
-        width: 45%;
+    .step-info > span {
+        font-size: 29px;
+        line-height: 29px;
+        margin-bottom: 7px;
+        padding-bottom: 17px;
     }
-    /*--------- features --------*/
-    .v2__features .container__mid {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-        flex-flow: column;
+    .step-info > h3 {
+        font-size: 18px;
+        margin: 10px 0 9px;
     }
-    /*--------- contact --------*/
-    .send__message {
-        padding: 50px 30px 55px 30px;
+    .flat-btn {
+        border: 1px solid transparent;
+        color: #fff;
+        float: left;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 13px 21px;
     }
-    .contact__info {
-        padding: 50px 30px 50px 30px;
+    .post2-thumb {
+        display: table;
+        float: left;
+        margin: 0 0 20px;
+        width: 100%;
     }
+    .account-popup {
+        width: 98%;
+    }
+    .account-user {
+        padding: 110px 35px;
+    }
+    .registration-sec {
+        padding: 70px 36px;
+    }
+    .popup-client {
+        margin-left: 3px;
+    }
+    .contact-item > li {
+        float: left;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .choose-language {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 7px;
+    }
+    .choose-language > a {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }      
+    .agents-carousal-sec .owl-nav > div {
+        display: none !important;
+    }
+    .agents-carousal-sec > ul li h3 {
+        font-size: 19px;
+    }
+
+    .menu nav > ul > li > a {
+        color: #333333;
+    }
+    header.simple-header.white.for-sticky .popup-client > span:hover i {
+        color: #ffffff;
+    }
+    header .menu-item-has-children > ul > li {
+        background: #f4f4f4 none repeat scroll 0 0;
+        border-color: #dfdfdf;
+    }
+    header .menu-item-has-children > ul > li > a {
+        color: #434343;
+    }
+    .square-services-sec > .row > div {
+        float: left;
+        width: 100%;
+    }
+    .fancy-testimonial-sec .nav.nav-tabs > li {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .fancy-testimonial-sec .nav.nav-tabs > li > a {
+        float: left;
+        height: 50px;
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    .fancy-testimonial-sec .nav.nav-tabs > li.active {
+        margin-bottom: 79px;
+    }
+    .heading4 > h2 {
+        font-size: 22px;
+    }
+    .mini-service-info > ul > li {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 13px;
+    }  
+    .post-detail {
+        float: left;
+        padding: 60px 40px;
+        position: static;
+        width: 100%;
+    }
+    .blog-post {
+        position: relative;
+    }
+    .post-admin {
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    .post-admin a h5 {
+        display: none;
+    }
+    .post-admin a span {
+        display: none;
+    }
+    .texty-service-sec > .row > div {
+        float: left;
+        width: 100%;
+    }
+    .contact-form > form .row > div {
+        float: left;
+    }
+    .fun-fact-sec > .row > div {
+        float: left;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .inner-content > span {
+        bottom: 0;
+        height: 100%;
+        top: auto;
+        width: 90px;
+    }
+    .inner-content > span > i {
+        font-size: 34px;
+    }
+    .inner-content {
+        padding-left: 120px;
+    }
+    .inner-content h2 {
+        font-size: 24px;
+    }
+    .inner-content li a {
+        font-size: 13px;
+    }
+    .comming-soon > h2 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .countdown > li {
+        float: left;
+        margin: 0 0 30px;
+        text-align: center;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+    .contact-lists-sec > ul > li {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .contact-lists-sec > ul > li > i {
+        display: table;
+        float: none;
+        margin: 0 auto;
+    }
+    .our-clients-sec { 
+        padding: 0 40px; 
+    }
+		.virtecal-search .form-group {
+		width: 100%;
+	}
+	.virtecal-search {
+		bottom: 20px;
+		width: 100%;
+		position: initial;
+		left: auto;
+		padding: 0px;
+		right: 46px;
+	}
+	.virtecal-search .fsearch-title {
+    display: none;
+	}
+}
+
+
+@media (min-width: 480px) and (max-width: 767px){
+
+    .properties-thumb ul.property-info {
+        left: 0px;
+        min-width: 213px;
+        padding: 8px 10px 8px 10px;
+        margin-left: -3px;
+    }
+	.virtecal-search .form-group {
+		width: 100%;
+	}
+	.virtecal-search {
+		bottom: 20px;
+		width: 100%;
+		position: initial;
+		left: auto;
+		padding: 0px;
+		right: 46px;
+	}
+	 .virtecal-search .fsearch-title {
+    display: none;
+	}
+	
 }
